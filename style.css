@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.header .top-header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.social i{
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.search-input {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn-search {
+    background: rgb(55, 114, 153);
+    color: #fff;
+    padding: 6px 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* middle */
+.middle-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.middle-header .logo {
+    margin-right: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(3, 52, 71);
+}
+
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px 10px;
+}
+
+.nav a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background: rgb(0, 0, 0);
+    background: url("./img/ben-kolde-cpLsWmMEa1Q-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    margin: 50px 50px 0 50px;
+}
+.about p{
+    margin-bottom: 10px ;
+    color: #999;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    color: #fff;
+    background: rgb(55, 114, 153);
+}
+
+.about .side_photo{
+    width: 50%;
+    height: 50%;
+}
+
+.about img{
+    width: 20rem;
+}
+
+
+/* services */
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background: rgb(238, 238, 238);
+
+}
+
+.services_title {
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+
+.services{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.service{
+    margin: 10px;
+    width: 30vw;
+    padding: 20px;
+    height: fit-content;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    background-color: rgb(212, 230, 230);
+}
+
+.contact_form{
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./img/firmbee-com-SpVHcbuKi6E-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    background-color: rgba(80, 255, 173, 0.589);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+
+}
+
+.form input, textarea{
+    padding: 10px;
+    border:none ;
+    border-radius: 5px;
+    outline: none;
+    margin: 4px;
+}
+.form textarea{
+    width: 98%;
+}
+
+.form button {
+    display: block;
+}
